@@ -61,7 +61,7 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <span className="font-bold  ">Hello, I'm Ross Holland ! <br></br></span> I turn{" "}
+                <span className="font-bold  ">Hello, I am Ross Holland ! <br></br></span> I turn{" "}
                 <span className=" font-bold italic line-through">Chaotic Data</span> {" "}
                 into <span className="italic underline">Valuble Insights & reliable forecasts</span>
 
@@ -78,10 +78,7 @@ export default function Intro() {
                 <Link
                     href="#contact"
                     className="group bg-red-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-                    onClick={() => {
-                        setActiveSection("Contact");
-                        setTimeOfLastClick(Date.now());
-                    }}
+
                 >
                     Contact me here{" "}
                     <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
